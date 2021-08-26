@@ -83,6 +83,7 @@ section p {
   font-family: "Space Mono", monospace;
   border: 0;
   outline: 0;
+  cursor: pointer;
 }
 
 footer {
