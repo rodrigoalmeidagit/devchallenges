@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
 }
 
-main {
+.main {
   display: grid;
   height: 100%;
   grid-template-areas:
@@ -30,7 +30,7 @@ main {
   position: relative;
 }
 
-header {
+.header {
   grid-area: header;
   height: 0vh;
   font-family: "Space Mono", monospace;
@@ -54,19 +54,19 @@ img {
   grid-area: img;
 }
 
-section {
+.main-section {
   height: 80vh;
   font-family: "Space Mono", monospace;
   grid-area: section;
 }
 
-section h2 {
+.main-section h2 {
   margin-top: 13%;
   font-size: 64px;
   font-weight: 700;
 }
 
-section p {
+.main-section p {
   grid-area: p;
   margin-top: 30px;
   font-size: 24px;
