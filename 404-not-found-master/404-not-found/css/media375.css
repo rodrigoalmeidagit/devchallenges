@@ -1,0 +1,72 @@
+@media (max-width: 375px) {
+  header {
+    grid-area: header;
+  }
+
+  img {
+    /* display: block; */
+    width: 286.83px;
+    height: 220.35px;
+    margin: auto;
+    position: absolute;
+    top: 1%;
+    /* left: 20%; */
+
+    grid-area: img;
+  }
+
+  section {
+    font-family: "Space Mono", monospace;
+    grid-area: section;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+
+  main {
+    display: grid;
+    height: 100%;
+    grid-template-areas:
+      "header"
+      "img"
+      "section"
+      "footer";
+    grid-template-columns: 100%;
+    position: relative;
+  }
+
+  section {
+    height: 80vh;
+    font-family: "Space Mono", monospace;
+    grid-area: section;
+    display: flex;
+    justify-content: center;
+  }
+
+  section h2 {
+    margin-top: 13%;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 71px;
+  }
+
+  section p {
+    grid-area: p;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  section button {
+    margin-top: 70px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(51, 51, 51, 1);
+    width: 216px;
+    height: 68px;
+    font-weight: 700;
+    font-family: "Space Mono", monospace;
+    border: 0;
+    outline: 0;
+  }
+}
